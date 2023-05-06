@@ -2,15 +2,15 @@
 
 return [
     'validation' => [
-        'fqdn_not_resolvable' => 'The FQDN or IP address provided does not resolve to a valid IP address.',
-        'fqdn_required_for_ssl' => 'A fully qualified domain name that resolves to a public IP address is required in order to use SSL for this node.',
+        'fqdn_not_resolvable' => 'El FQDN o la dirección IP proporcionada no se resuelve en una dirección IP válida.',
+        'fqdn_required_for_ssl' => 'Se requiere un nombre de dominio completo que se resuelva en una dirección IP pública para usar SSL para este nodo.',
     ],
     'notices' => [
-        'allocations_added' => 'Allocations have successfully been added to this node.',
-        'node_deleted' => 'Node has been successfully removed from the panel.',
-        'location_required' => 'You must have at least one location configured before you can add a node to this panel.',
-        'node_created' => 'Successfully created new node. You can automatically configure the daemon on this machine by visiting the \'Configuration\' tab. <strong>Before you can add any servers you must first allocate at least one IP address and port.</strong>',
-        'node_updated' => 'Node information has been updated. If any daemon settings were changed you will need to reboot it for those changes to take effect.',
-        'unallocated_deleted' => 'Deleted all un-allocated ports for <code>:ip</code>.',
+        'allocations_added' => 'Las asignaciones se agregaron con éxito a este nodo.',
+        'node_deleted' => 'El nodo se eliminó correctamente del panel.',
+        'location_required' => 'Debe tener al menos una ubicación configurada antes de poder agregar un nodo a este panel.',
+        'node_created' => 'Nuevo nodo creado con éxito. Puede configurar automáticamente el daemon en esta máquina visitando la pestaña \'Configuration\'. <strong>Antes de que pueda agregar cualquier servidor, primero debe asignar al menos una dirección IP y un puerto.</strong>',
+        'node_updated' => 'La información del nodo ha sido actualizada. Si se cambió alguna configuración del daemon, deberá reiniciarlo para que los cambios surtan efecto.',
+        'unallocated_deleted' => 'Eliminados todos los puertos no asignados para <code>:ip</code>.',
     ],
 ];
