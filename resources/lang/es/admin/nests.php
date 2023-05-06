@@ -2,25 +2,25 @@
 
 return [
     'notices' => [
-        'created' => 'A new nest, :name, has been successfully created.',
-        'deleted' => 'Successfully deleted the requested nest from the Panel.',
-        'updated' => 'Successfully updated the nest configuration options.',
+        'created' => 'Un nuevo Nido, de nombre :name, ha sido creado exitosamente.',
+        'deleted' => 'Eliminó con éxito el Nido solicitado del Panel.',
+        'updated' => 'Se actualizaron con éxito las opciones de configuración del Nido.',
     ],
     'eggs' => [
         'notices' => [
-            'imported' => 'Successfully imported this Egg and its associated variables.',
-            'updated_via_import' => 'This Egg has been updated using the file provided.',
-            'deleted' => 'Successfully deleted the requested egg from the Panel.',
-            'updated' => 'Egg configuration has been updated successfully.',
-            'script_updated' => 'Egg install script has been updated and will run whenever servers are installed.',
-            'egg_created' => 'A new egg was laid successfully. You will need to restart any running daemons to apply this new egg.',
+            'imported' => 'Se importó con éxito este Huevo y sus variables asociadas.',
+            'updated_via_import' => 'Este Huevo ha sido actualizado usando el archivo provisto.',
+            'deleted' => 'Eliminó con éxito el Huevo solicitado desde el Panel.',
+            'updated' => 'La configuración del Huevo se ha actualizado correctamente.',
+            'script_updated' => 'La secuencia de comandos de instalación del Huevo se ha actualizado y se ejecutará cada vez que se instalen servidores.',
+            'egg_created' => 'e puso un nuevo Huevo con éxito. Deberá reiniciar todos los daemons en ejecución para aplicar este nuevo Huevo.',
         ],
     ],
     'variables' => [
         'notices' => [
-            'variable_deleted' => 'The variable ":variable" has been deleted and will no longer be available to servers once rebuilt.',
-            'variable_updated' => 'The variable ":variable" has been updated. You will need to rebuild any servers using this variable in order to apply changes.',
-            'variable_created' => 'New variable has successfully been created and assigned to this egg.',
+            'variable_deleted' => 'La variable ":variable" ha sido eliminada y ya no estará disponible para los servidores una vez reconstruida.',
+            'variable_updated' => 'La variable ":variable" ha sido actualizada. Deberá reconstruir todos los servidores que utilicen esta variable para poder aplicar los cambios.',
+            'variable_created' => 'La nueva variable se ha creado y asignado correctamente a este Huevo.',
         ],
     ],
 ];
